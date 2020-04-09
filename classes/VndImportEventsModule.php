@@ -10,7 +10,7 @@
 
 bx_import('BxDolModule');
 
-class VndImportEventsModule extends BxDolModule 
+class VndBPMCTImportEventsModule extends BxDolModule 
 {
     function __construct(&$aModule) 
     {
@@ -19,7 +19,7 @@ class VndImportEventsModule extends BxDolModule
 
     function serviceTest () 
     {
-        return str_repeat(_t('_vnd_import_events_phrase'), getParam('vnd_import_events_repeat_times'));
+        return str_repeat(_t('_vnd_bpmct_import_events_phrase'), getParam('vnd_bpmct_import_events_repeat_times'));
     }
 }
 

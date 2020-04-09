@@ -8,5 +8,5 @@ Import events into your Una.io site from a CSV
 
 ## Installing
 
-1. Rename folder to `import_events`
+1. Rename folder to `bpmct_import_events`
 2. Mode to your `modules/vendor` folder in Una. You may have to create one.

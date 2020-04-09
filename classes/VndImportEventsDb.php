@@ -10,7 +10,7 @@
 
 bx_import('BxDolModuleDb');
 
-class VndImportEventsDb extends BxDolModuleDb
+class VndBPMCTImportEventsDb extends BxDolModuleDb
 {
 	function __construct(&$oConfig) 
     {

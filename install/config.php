@@ -13,7 +13,7 @@ $aConfig = array(
 	 * Main Section.
 	 */
 	'type' => BX_DOL_MODULE_TYPE_MODULE,
-    'name' => 'vnd_import_events',
+    'name' => 'vnd_bpmct_import_events',
 	'title' => 'Import Events',
     'note' => 'Import Events as a CSV',
 	'version' => '0.0.1',
@@ -28,11 +28,11 @@ $aConfig = array(
     /**
 	 * 'home_dir' and 'home_uri' - should be unique. Don't use spaces in 'home_uri' and the other special chars.
 	 */
-	'home_dir' => 'vendor/import_events/',
-	'home_uri' => 'test',
+	'home_dir' => 'vendor/bpmct_import_events/',
+	'home_uri' => 'import_events',
 	
-	'db_prefix' => 'vnd_import_events',
-	'class_prefix' => 'VndImportEvents',
+	'db_prefix' => 'vnd_bpmct_import_events',
+	'class_prefix' => 'VndBPMCTImportEvents',
 
 	/**
 	 * Category for language keys.

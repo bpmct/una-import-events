@@ -1,7 +1,7 @@
 <?php defined('BX_DOL') or die('hack attempt');
 /**
  * 
- * @defgroup    import_events
+ * @defgroup    bpmct_import_events
  * @ingroup     VendorModules
  *
  * @{

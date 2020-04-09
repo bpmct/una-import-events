@@ -10,7 +10,7 @@
 
 bx_import('BxDolStudioInstaller');
 
-class VndImportEventsInstaller extends BxDolStudioInstaller 
+class VndBPMCTImportEventsInstaller extends BxDolStudioInstaller 
 {
     function __construct($aConfig) 
     {
